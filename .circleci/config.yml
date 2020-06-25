@@ -1,0 +1,7 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: docker-laravel-project/php:7.4-fpm-buster
+    steps:
+      - run: echo "Hello World"
